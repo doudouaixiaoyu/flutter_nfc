@@ -1,14 +1,14 @@
 # flutter_nfc
 
-A new flutter plugin project.
+一个在Flutter中读取NFC卡片信息的插件
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+### 说明: 此插件借鉴于[flutter-nfc-reader](https://github.com/matteocrippa/flutter-nfc-reader) 以及
+[nfc_in_flutter](https://github.com/semlette/nfc_in_flutter)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+### 使用:
+         在您的pubspec.yaml中添加
+           flutter_nfc:
+             git:
+               url: git://github.com/doudouaixiaoyu/flutter_nfc.git
