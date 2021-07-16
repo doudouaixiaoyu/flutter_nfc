@@ -11,22 +11,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8da81c7a-2a66-4406-8221-f509ebc11623" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8da81c7a-2a66-4406-8221-f509ebc11623" name="Default Changelist" comment="修改版本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/yu/flutter_nfc/FlutterNfcPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/yu/flutter_nfc/FlutterNfcPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/example/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_nfc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_nfc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567499895814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改版本">
+      <created>1626428702172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626428702172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -91,31 +109,51 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="在Pub上的NFC插件基础上改的FLUTTER_NFC插件，只支持读取" />
     <MESSAGE value="添加说明文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加说明文件" />
+    <MESSAGE value="修改版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改版本" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1685" height="239" key="GridCell.Tab.0.bottom" timestamp="1626428349433">
+    <state x="664" y="329" key="#Notifications" timestamp="1626428870312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1685" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1626428349433" />
-    <state width="1685" height="239" key="GridCell.Tab.0.center" timestamp="1626428349433">
+    <state x="664" y="329" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1626428870312" />
+    <state width="1685" height="239" key="GridCell.Tab.0.bottom" timestamp="1626429702956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1685" height="239" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1626428349433" />
-    <state width="1685" height="239" key="GridCell.Tab.0.left" timestamp="1626428349433">
+    <state width="1685" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1626429702956" />
+    <state width="1685" height="239" key="GridCell.Tab.0.center" timestamp="1626429702955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1685" height="239" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1626428349433" />
-    <state width="1685" height="239" key="GridCell.Tab.0.right" timestamp="1626428349433">
+    <state width="1685" height="239" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1626429702955" />
+    <state width="1685" height="239" key="GridCell.Tab.0.left" timestamp="1626429702955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1685" height="239" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1626428349433" />
+    <state width="1685" height="239" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1626429702955" />
+    <state width="1685" height="239" key="GridCell.Tab.0.right" timestamp="1626429702956">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1685" height="239" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1626429702956" />
     <state x="547" y="87" key="SettingsEditor" timestamp="1626419889276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="547" y="87" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1626419889276" />
+    <state x="560" y="232" key="Vcs.Push.Dialog.v2" timestamp="1626429059934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="560" y="232" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1626429059934" />
   </component>
 </project>

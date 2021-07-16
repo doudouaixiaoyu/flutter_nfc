@@ -14,7 +14,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   bool _supportsNFC = false;
-  StreamSubscription<NFCMessage> _stream;
+  StreamSubscription<NFCMessage>? _stream;
 
   String nfcId = "空";
 

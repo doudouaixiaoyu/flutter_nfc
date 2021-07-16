@@ -8,7 +8,7 @@ class FlutterNfc {
   static const EventChannel _eventChannel =
       const EventChannel('flutter_nfc/message');
 
-  static Stream<dynamic> _tagStream;
+  static Stream<dynamic>? _tagStream;
 
   static Stream<NFCMessage> startReading() {
     if (_tagStream == null) {
@@ -20,16 +20,16 @@ class FlutterNfc {
     }
     StreamController<NFCMessage> controller = StreamController();
     final stream = _tagStream;
-    final subscription = stream.listen((message) {
+    final subscription = stream?.listen((message) {
       controller.add(message);
     }, onError: (error) {
       print(error);
     }, onDone: () {
       _tagStream = null;
-      return controller.close();
+       controller.close();
     });
     controller.onCancel = () {
-      subscription.cancel();
+      subscription?.cancel();
     };
 
     // 开始读取
