@@ -98,7 +98,7 @@ class FlutterNfcPlugin(registrar: Registrar) : MethodCallHandler, EventChannel.S
         // 把nDEFMessage转化为String 类型的message
         val message = nDEFMessage?.toByteArray()?.toString(Charset.forName("UTF-8")) ?: ""
         // 获得ID
-        val id = bytesToHexString(p0?.id) ?: ""
+        val id = bytesToHexString(p0?.id?.reversedArray()) ?: ""
         // 关闭卡
         nDef?.close()
         // map 化返回数据

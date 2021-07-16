@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -14,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   bool _supportsNFC = false;
   StreamSubscription<NFCMessage> _stream;
 
-  String id = "空";
+  String nfcId = "空";
 
   @override
   void initState() {
@@ -32,7 +34,7 @@ class _MyAppState extends State<MyApp> {
       StreamSubscription<NFCMessage> subscription =
           FlutterNfc.startReading().listen((tag) {
         setState(() {
-          id = tag.id;
+          nfcId = int.parse(tag.id).toRadixString(10);
         });
       }, onDone: () {
         setState(() {
@@ -80,7 +82,7 @@ class _MyAppState extends State<MyApp> {
                   }
                 },
               ),
-              Text(id),
+              Text(nfcId),
             ],
           ),
         ),
